@@ -1,0 +1,676 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$ref": "#/definitions/NBAScores",
+  "definitions": {
+    "NBAScores": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "leagues": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/League"
+          }
+        },
+        "season": {
+          "$ref": "#/definitions/EventSeason"
+        },
+        "day": {
+          "$ref": "#/definitions/Day"
+        },
+        "events": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Event"
+          }
+        }
+      },
+      "required": [],
+      "title": "NBAScores"
+    },
+    "Day": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "date": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "required": [],
+      "title": "Day"
+    },
+    "Event": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "shortName": {
+          "type": "string"
+        },
+        "season": {
+          "$ref": "#/definitions/EventSeason"
+        },
+        "competitions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Competition"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/EventLink"
+          }
+        },
+        "status": {
+          "$ref": "#/definitions/Status"
+        }
+      },
+      "required": [],
+      "title": "Event"
+    },
+    "Competition": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "attendance": {
+          "type": "integer"
+        },
+        "type": {
+          "$ref": "#/definitions/CompetitionType"
+        },
+        "timeValid": {
+          "type": "boolean"
+        },
+        "neutralSite": {
+          "type": "boolean"
+        },
+        "conferenceCompetition": {
+          "type": "boolean"
+        },
+        "recent": {
+          "type": "boolean"
+        },
+        "venue": {
+          "$ref": "#/definitions/CompetitionVenue"
+        },
+        "competitors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Competitor"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {}
+        },
+        "status": {
+          "$ref": "#/definitions/Status"
+        },
+        "broadcasts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Broadcast"
+          }
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "geoBroadcasts": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/GeoBroadcast"
+          }
+        },
+        "odds": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Odd"
+          }
+        }
+      },
+      "required": [],
+      "title": "Competition"
+    },
+    "Broadcast": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "market": {
+          "type": "string"
+        },
+        "names": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "title": "Broadcast"
+    },
+    "Competitor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "order": {
+          "type": "integer"
+        },
+        "homeAway": {
+          "type": "string"
+        },
+        "team": {
+          "$ref": "#/definitions/Team"
+        },
+        "score": {
+          "type": "string",
+          "format": "integer"
+        },
+        "statistics": {
+          "type": "array",
+          "items": {}
+        },
+        "records": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Record"
+          }
+        }
+      },
+      "required": [],
+      "title": "Competitor"
+    },
+    "Record": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "$ref": "#/definitions/Name"
+        },
+        "abbreviation": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/definitions/TypeEnum"
+        },
+        "summary": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "Record"
+    },
+    "Team": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "abbreviation": {
+          "type": "string"
+        },
+        "displayName": {
+          "type": "string"
+        },
+        "shortDisplayName": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "alternateColor": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "venue": {
+          "$ref": "#/definitions/TeamVenue"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/TeamLink"
+          }
+        },
+        "logo": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["https"],
+          "qt-uri-extensions": [".png"]
+        }
+      },
+      "required": [],
+      "title": "Team"
+    },
+    "TeamLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "rel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "href": {
+          "type": "string",
+          "qt-uri-protocols": ["http"]
+        },
+        "text": {
+          "type": "string"
+        },
+        "isExternal": {
+          "type": "boolean"
+        },
+        "isPremium": {
+          "type": "boolean"
+        }
+      },
+      "required": [],
+      "title": "TeamLink"
+    },
+    "TeamVenue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        }
+      },
+      "required": [],
+      "title": "TeamVenue"
+    },
+    "GeoBroadcast": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "$ref": "#/definitions/GeoBroadcastType"
+        },
+        "market": {
+          "$ref": "#/definitions/Market"
+        },
+        "media": {
+          "$ref": "#/definitions/Media"
+        },
+        "lang": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "GeoBroadcast"
+    },
+    "Market": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "type": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "Market"
+    },
+    "Media": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "shortName": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "Media"
+    },
+    "GeoBroadcastType": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "shortName": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "GeoBroadcastType"
+    },
+    "Odd": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "provider": {
+          "$ref": "#/definitions/Provider"
+        },
+        "details": {
+          "type": "string"
+        },
+        "overUnder": {
+          "type": "number"
+        }
+      },
+      "required": [],
+      "title": "Odd"
+    },
+    "Provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "priority": {
+          "type": "integer"
+        }
+      },
+      "required": [],
+      "title": "Provider"
+    },
+    "Status": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "clock": {
+          "type": "integer"
+        },
+        "displayClock": {
+          "type": "string"
+        },
+        "period": {
+          "type": "integer"
+        },
+        "type": {
+          "$ref": "#/definitions/StatusType"
+        }
+      },
+      "required": [],
+      "title": "Status"
+    },
+    "StatusType": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "completed": {
+          "type": "boolean"
+        },
+        "description": {
+          "type": "string"
+        },
+        "detail": {
+          "type": "string"
+        },
+        "shortDetail": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "StatusType"
+    },
+    "CompetitionType": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "abbreviation": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "CompetitionType"
+    },
+    "CompetitionVenue": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "fullName": {
+          "type": "string"
+        },
+        "address": {
+          "$ref": "#/definitions/Address"
+        },
+        "capacity": {
+          "type": "integer"
+        },
+        "indoor": {
+          "type": "boolean"
+        }
+      },
+      "required": [],
+      "title": "CompetitionVenue"
+    },
+    "Address": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "Address"
+    },
+    "EventLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "rel": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "href": {
+          "type": "string",
+          "format": "uri",
+          "qt-uri-protocols": ["http"]
+        },
+        "text": {
+          "type": "string"
+        },
+        "shortText": {
+          "type": "string"
+        },
+        "isExternal": {
+          "type": "boolean"
+        },
+        "isPremium": {
+          "type": "boolean"
+        }
+      },
+      "required": [],
+      "title": "EventLink"
+    },
+    "EventSeason": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "type": "integer"
+        },
+        "year": {
+          "type": "integer"
+        }
+      },
+      "required": [],
+      "title": "EventSeason"
+    },
+    "League": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "abbreviation": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "season": {
+          "$ref": "#/definitions/LeagueSeason"
+        },
+        "calendarType": {
+          "type": "string"
+        },
+        "calendarIsWhitelist": {
+          "type": "boolean"
+        },
+        "calendarStartDate": {
+          "type": "string"
+        },
+        "calendarEndDate": {
+          "type": "string"
+        },
+        "calendar": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [],
+      "title": "League"
+    },
+    "LeagueSeason": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "year": {
+          "type": "integer"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/definitions/SeasonType"
+        }
+      },
+      "required": [],
+      "title": "LeagueSeason"
+    },
+    "SeasonType": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "integer"
+        },
+        "type": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "abbreviation": {
+          "type": "string"
+        }
+      },
+      "required": [],
+      "title": "SeasonType"
+    },
+    "Name": {
+      "type": "string",
+      "enum": ["All Splits", "Home", "Road"],
+      "title": "Name"
+    },
+    "TypeEnum": {
+      "type": "string",
+      "enum": ["total", "home", "road"],
+      "title": "TypeEnum"
+    }
+  }
+}
