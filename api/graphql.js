@@ -48,7 +48,7 @@ module.exports = async (req, res) => {
                 ),
               },
               {
-                field: "nba",
+                field: "nbaScoreboard",
                 description: "Get the nba scores",
                 path: `/basketball/nba/scoreboard?dates={args.date}`,
                 type: "Query",
