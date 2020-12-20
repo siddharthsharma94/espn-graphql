@@ -71,15 +71,6 @@ module.exports = async (req, res) => {
     serve: {
       exampleQuery: path.join(__dirname, "..", "example-query.graphql"),
     },
-    transforms: [
-      {
-        cache: [
-          {
-            field: "Query.*",
-          },
-        ],
-      },
-    ],
   });
 
   const { schema, contextBuilder: context } = await getMesh(parsedConfig);
