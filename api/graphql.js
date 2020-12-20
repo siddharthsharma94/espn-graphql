@@ -48,7 +48,7 @@ module.exports = async (req, res) => {
                 ),
               },
               {
-                field: "gameStats",
+                field: "nflGameStats",
                 description: "Get the nfl stats of an indiviual game",
                 path: `/football/nfl/summary?event={args.gameId}`,
                 type: "Query",
