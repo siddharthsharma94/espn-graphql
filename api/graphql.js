@@ -4,6 +4,7 @@ const path = require("path");
 const { ApolloServer } = require("apollo-server-micro");
 import "@graphql-mesh/json-schema";
 import "@graphql-mesh/transform-rename";
+import "@graphql-mesh/cache-inmemory-lru";
 // In a production environment we would want to secure this endpoint
 
 const apiKey = process.env.FINNHUB_API_KEY;
@@ -71,6 +72,15 @@ module.exports = async (req, res) => {
     serve: {
       exampleQuery: path.join(__dirname, "..", "example-query.graphql"),
     },
+    transforms: [
+      {
+        cache: [
+          {
+            field: "Query.*",
+          },
+        ],
+      },
+    ],
   });
 
   const { schema, contextBuilder: context } = await getMesh(parsedConfig);
