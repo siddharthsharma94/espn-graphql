@@ -29,12 +29,12 @@ module.exports = async (req, res) => {
         name: "ESPN API",
         handler: {
           jsonSchema: {
-            baseUrl: "http://site.api.espn.com/apis/site/v2/sports",
+            baseUrl: "http://site.web.api.espn.com",
             operations: [
               {
                 field: "nflScoreboard",
                 description: "Get the nfl scores",
-                path: `/football/nfl/scoreboard?dates={args.date}`,
+                path: `/apis/site/v2/sports/football/nfl/scoreboard?dates={args.date}`,
                 type: "Query",
                 method: "GET",
                 argTypeMap: {
@@ -50,7 +50,7 @@ module.exports = async (req, res) => {
               {
                 field: "nflGameStats",
                 description: "Get the nfl stats of an indiviual game",
-                path: `/football/nfl/summary?event={args.gameId}`,
+                path: `/apis/site/v2/sports/football/nfl/summary?event={args.gameId}`,
                 type: "Query",
                 method: "GET",
                 argTypeMap: {
@@ -63,9 +63,24 @@ module.exports = async (req, res) => {
                 ),
               },
               {
+                field: "nflPlayerStats",
+                description: "Get the nfl stats of an indiviual game",
+                path: `/apis/common/v3/sports/football/nfl/athletes/{args.playerId}`,
+                type: "Query",
+                method: "GET",
+                argTypeMap: {
+                  playerId: "String",
+                },
+                responseSchema: path.join(
+                  __dirname,
+                  "..",
+                  "./json-samples/nfl/player.json"
+                ),
+              },
+              {
                 field: "nbaScoreboard",
                 description: "Get the nba scores",
-                path: `/basketball/nba/scoreboard?dates={args.date}`,
+                path: `/apis/site/v2/sports/basketball/nba/scoreboard?dates={args.date}`,
                 type: "Query",
                 method: "GET",
                 argTypeMap: {
