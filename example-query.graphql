@@ -1,0 +1,28 @@
+{
+  nbaScoreboard(date: "20201219") {
+    events {
+      competitions {
+        competitors {
+          team {
+            id
+            displayName
+          }
+          score
+        }
+      }
+    }
+  }
+  nflScoreboard(date: "20201219") {
+    events {
+      competitions {
+        competitors {
+          score
+          team {
+            displayName
+            color
+          }
+        }
+      }
+    }
+  }
+}
