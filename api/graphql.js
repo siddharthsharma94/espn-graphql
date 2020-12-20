@@ -48,6 +48,21 @@ module.exports = async (req, res) => {
                 ),
               },
               {
+                field: "gameStats",
+                description: "Get the nfl stats of an indiviual game",
+                path: `/football/nfl/summary?event={args.gameId}`,
+                type: "Query",
+                method: "GET",
+                argTypeMap: {
+                  gameId: "String",
+                },
+                responseSchema: path.join(
+                  __dirname,
+                  "..",
+                  "./json-samples/nfl/game.json"
+                ),
+              },
+              {
                 field: "nbaScoreboard",
                 description: "Get the nba scores",
                 path: `/basketball/nba/scoreboard?dates={args.date}`,
