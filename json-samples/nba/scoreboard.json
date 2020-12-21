@@ -664,12 +664,10 @@
     },
     "Name": {
       "type": "string",
-      "enum": ["All Splits", "Home", "Road"],
       "title": "Name"
     },
     "TypeEnum": {
       "type": "string",
-      "enum": ["total", "home", "road"],
       "title": "TypeEnum"
     }
   }
