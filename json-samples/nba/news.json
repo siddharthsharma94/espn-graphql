@@ -1,0 +1,2644 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "header": {
+      "type": "string"
+    },
+    "link": {
+      "type": "object",
+      "properties": {
+        "language": {
+          "type": "string"
+        },
+        "rel": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "href": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        },
+        "shortText": {
+          "type": "string"
+        },
+        "isExternal": {
+          "type": "boolean"
+        },
+        "isPremium": {
+          "type": "boolean"
+        }
+      }
+    },
+    "articles": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "images": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            },
+            "description": {
+              "type": "string"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "api": {
+                  "type": "object",
+                  "properties": {
+                    "news": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "self": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "web": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    },
+                    "short": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mobile": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "headline": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "images": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            },
+            "description": {
+              "type": "string"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "api": {
+                  "type": "object",
+                  "properties": {
+                    "news": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "self": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "web": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    },
+                    "short": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mobile": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "headline": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "images": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "alt": {
+                      "type": "string"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            },
+            "description": {
+              "type": "string"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "api": {
+                  "type": "object",
+                  "properties": {
+                    "news": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "self": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "web": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    },
+                    "short": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "topicId": {
+                      "type": "integer"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "athleteId": {
+                      "type": "integer"
+                    },
+                    "athlete": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "headline": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "images": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "alt": {
+                      "type": "string"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            },
+            "description": {
+              "type": "string"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "api": {
+                  "type": "object",
+                  "properties": {
+                    "news": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "self": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "web": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    },
+                    "short": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "topicId": {
+                      "type": "integer"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "athleteId": {
+                      "type": "integer"
+                    },
+                    "athlete": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "athleteId": {
+                      "type": "integer"
+                    },
+                    "athlete": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "athletes": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "headline": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "images": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            },
+            "description": {
+              "type": "string"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "api": {
+                  "type": "object",
+                  "properties": {
+                    "news": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "self": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "web": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    },
+                    "short": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mobile": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "teamId": {
+                      "type": "integer"
+                    },
+                    "team": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "teams": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "headline": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "links": {
+              "type": "object",
+              "properties": {
+                "api": {
+                  "type": "object",
+                  "properties": {
+                    "news": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "self": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "web": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    },
+                    "short": {
+                      "type": "object",
+                      "properties": {
+                        "href": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  }
+                },
+                "mobile": {
+                  "type": "object",
+                  "properties": {
+                    "href": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "categories": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "leagueId": {
+                      "type": "integer"
+                    },
+                    "league": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "description": {
+                          "type": "string"
+                        },
+                        "links": {
+                          "type": "object",
+                          "properties": {
+                            "api": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object"
+                                }
+                              }
+                            },
+                            "web": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "mobile": {
+                              "type": "object",
+                              "properties": {
+                                "leagues": {
+                                  "type": "object",
+                                  "properties": {
+                                    "href": {
+                                      "type": "string"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "topicId": {
+                      "type": "integer"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "topicId": {
+                      "type": "integer"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "topicId": {
+                      "type": "integer"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "topicId": {
+                      "type": "integer"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "sportId": {
+                      "type": "integer"
+                    },
+                    "uid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "guid": {
+                      "type": "string"
+                    },
+                    "createDate": {
+                      "type": "string"
+                    }
+                  }
+                }
+              ]
+            },
+            "headline": {
+              "type": "string"
+            },
+            "images": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "credit": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "credit": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "caption": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "height": {
+                      "type": "integer"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

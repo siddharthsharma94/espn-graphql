@@ -93,6 +93,36 @@ module.exports = async (req, res) => {
                   "./json-samples/nba/scoreboard.json"
                 ),
               },
+              {
+                field: "nbaTeam",
+                description: "Get the nba team information",
+                path: `/apis/site/v2/sports/basketball/nba/teams/{args.teamId}`,
+                type: "Query",
+                method: "GET",
+                argTypeMap: {
+                  teamId: "String",
+                },
+                responseSchema: path.join(
+                  __dirname,
+                  "..",
+                  "./json-samples/nba/team.json"
+                ),
+              },
+              {
+                field: "nbaNews",
+                description: "Get the nba news",
+                path: `/apis/site/v2/sports/basketball/nba/news`,
+                type: "Query",
+                method: "GET",
+                argTypeMap: {
+                  teamId: "String",
+                },
+                responseSchema: path.join(
+                  __dirname,
+                  "..",
+                  "./json-samples/nba/news.json"
+                ),
+              },
             ],
           },
         },

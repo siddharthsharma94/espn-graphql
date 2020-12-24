@@ -1,0 +1,3799 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "team": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "uid": {
+          "type": "string"
+        },
+        "slug": {
+          "type": "string"
+        },
+        "location": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "abbreviation": {
+          "type": "string"
+        },
+        "displayName": {
+          "type": "string"
+        },
+        "shortDisplayName": {
+          "type": "string"
+        },
+        "color": {
+          "type": "string"
+        },
+        "alternateColor": {
+          "type": "string"
+        },
+        "isActive": {
+          "type": "boolean"
+        },
+        "logos": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "alt": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "alt": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "alt": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "href": {
+                  "type": "string"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "alt": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "record": {
+          "type": "object",
+          "properties": {
+            "items": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "stats": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "number"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "stats": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "description": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "summary": {
+                      "type": "string"
+                    },
+                    "stats": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "name": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "integer"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "groups": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "parent": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                }
+              }
+            },
+            "isConference": {
+              "type": "boolean"
+            }
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            },
+            {
+              "type": "object",
+              "properties": {
+                "language": {
+                  "type": "string"
+                },
+                "rel": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "href": {
+                  "type": "string"
+                },
+                "text": {
+                  "type": "string"
+                },
+                "shortText": {
+                  "type": "string"
+                },
+                "isExternal": {
+                  "type": "boolean"
+                },
+                "isPremium": {
+                  "type": "boolean"
+                }
+              }
+            }
+          ]
+        },
+        "nextEvent": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "date": {
+                  "type": "string"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "shortName": {
+                  "type": "string"
+                },
+                "season": {
+                  "type": "object",
+                  "properties": {
+                    "year": {
+                      "type": "integer"
+                    },
+                    "displayName": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "seasonType": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "abbreviation": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "timeValid": {
+                  "type": "boolean"
+                },
+                "competitions": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "date": {
+                          "type": "string"
+                        },
+                        "attendance": {
+                          "type": "integer"
+                        },
+                        "type": {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "string"
+                            },
+                            "text": {
+                              "type": "string"
+                            },
+                            "abbreviation": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "timeValid": {
+                          "type": "boolean"
+                        },
+                        "neutralSite": {
+                          "type": "boolean"
+                        },
+                        "boxscoreAvailable": {
+                          "type": "boolean"
+                        },
+                        "ticketsAvailable": {
+                          "type": "boolean"
+                        },
+                        "venue": {
+                          "type": "object",
+                          "properties": {
+                            "fullName": {
+                              "type": "string"
+                            },
+                            "address": {
+                              "type": "object",
+                              "properties": {
+                                "city": {
+                                  "type": "string"
+                                },
+                                "state": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "competitors": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "order": {
+                                  "type": "integer"
+                                },
+                                "homeAway": {
+                                  "type": "string"
+                                },
+                                "winner": {
+                                  "type": "boolean"
+                                },
+                                "team": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "location": {
+                                      "type": "string"
+                                    },
+                                    "abbreviation": {
+                                      "type": "string"
+                                    },
+                                    "displayName": {
+                                      "type": "string"
+                                    },
+                                    "shortDisplayName": {
+                                      "type": "string"
+                                    },
+                                    "logos": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "links": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                "score": {
+                                  "type": "object",
+                                  "properties": {
+                                    "value": {
+                                      "type": "integer"
+                                    },
+                                    "displayValue": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "leaders": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "leaders": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "displayValue": {
+                                                  "type": "string"
+                                                },
+                                                "value": {
+                                                  "type": "integer"
+                                                },
+                                                "athlete": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "lastName": {
+                                                      "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                      "type": "string"
+                                                    },
+                                                    "shortName": {
+                                                      "type": "string"
+                                                    },
+                                                    "links": {
+                                                      "type": "array",
+                                                      "items": [
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "leaders": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "displayValue": {
+                                                  "type": "string"
+                                                },
+                                                "value": {
+                                                  "type": "integer"
+                                                },
+                                                "athlete": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "lastName": {
+                                                      "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                      "type": "string"
+                                                    },
+                                                    "shortName": {
+                                                      "type": "string"
+                                                    },
+                                                    "links": {
+                                                      "type": "array",
+                                                      "items": [
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "leaders": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "displayValue": {
+                                                  "type": "string"
+                                                },
+                                                "value": {
+                                                  "type": "integer"
+                                                },
+                                                "athlete": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "lastName": {
+                                                      "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                      "type": "string"
+                                                    },
+                                                    "shortName": {
+                                                      "type": "string"
+                                                    },
+                                                    "links": {
+                                                      "type": "array",
+                                                      "items": [
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "leaders": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "displayValue": {
+                                                  "type": "string"
+                                                },
+                                                "value": {
+                                                  "type": "integer"
+                                                },
+                                                "athlete": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "lastName": {
+                                                      "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                      "type": "string"
+                                                    },
+                                                    "shortName": {
+                                                      "type": "string"
+                                                    },
+                                                    "links": {
+                                                      "type": "array",
+                                                      "items": [
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "leaders": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "displayValue": {
+                                                  "type": "string"
+                                                },
+                                                "value": {
+                                                  "type": "integer"
+                                                },
+                                                "athlete": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "lastName": {
+                                                      "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                      "type": "string"
+                                                    },
+                                                    "shortName": {
+                                                      "type": "string"
+                                                    },
+                                                    "links": {
+                                                      "type": "array",
+                                                      "items": [
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "name": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "leaders": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "displayValue": {
+                                                  "type": "string"
+                                                },
+                                                "value": {
+                                                  "type": "number"
+                                                },
+                                                "athlete": {
+                                                  "type": "object",
+                                                  "properties": {
+                                                    "id": {
+                                                      "type": "string"
+                                                    },
+                                                    "lastName": {
+                                                      "type": "string"
+                                                    },
+                                                    "displayName": {
+                                                      "type": "string"
+                                                    },
+                                                    "shortName": {
+                                                      "type": "string"
+                                                    },
+                                                    "links": {
+                                                      "type": "array",
+                                                      "items": [
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        },
+                                                        {
+                                                          "type": "object",
+                                                          "properties": {
+                                                            "rel": {
+                                                              "type": "array",
+                                                              "items": [
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                },
+                                                                {
+                                                                  "type": "string"
+                                                                }
+                                                              ]
+                                                            },
+                                                            "href": {
+                                                              "type": "string"
+                                                            }
+                                                          }
+                                                        }
+                                                      ]
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ]
+                                },
+                                "record": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "order": {
+                                  "type": "integer"
+                                },
+                                "homeAway": {
+                                  "type": "string"
+                                },
+                                "winner": {
+                                  "type": "boolean"
+                                },
+                                "team": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "location": {
+                                      "type": "string"
+                                    },
+                                    "abbreviation": {
+                                      "type": "string"
+                                    },
+                                    "displayName": {
+                                      "type": "string"
+                                    },
+                                    "shortDisplayName": {
+                                      "type": "string"
+                                    },
+                                    "logos": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "width": {
+                                              "type": "integer"
+                                            },
+                                            "height": {
+                                              "type": "integer"
+                                            },
+                                            "alt": {
+                                              "type": "string"
+                                            },
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    },
+                                    "links": {
+                                      "type": "array",
+                                      "items": [
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        },
+                                        {
+                                          "type": "object",
+                                          "properties": {
+                                            "rel": {
+                                              "type": "array",
+                                              "items": [
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                },
+                                                {
+                                                  "type": "string"
+                                                }
+                                              ]
+                                            },
+                                            "href": {
+                                              "type": "string"
+                                            },
+                                            "text": {
+                                              "type": "string"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                },
+                                "score": {
+                                  "type": "object",
+                                  "properties": {
+                                    "value": {
+                                      "type": "integer"
+                                    },
+                                    "displayValue": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "record": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "abbreviation": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "string"
+                                        },
+                                        "displayName": {
+                                          "type": "string"
+                                        },
+                                        "shortDisplayName": {
+                                          "type": "string"
+                                        },
+                                        "description": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "displayValue": {
+                                          "type": "string"
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "notes": {
+                          "type": "array",
+                          "items": {}
+                        },
+                        "broadcasts": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "type": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "shortName": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "market": {
+                                  "type": "object",
+                                  "properties": {
+                                    "id": {
+                                      "type": "string"
+                                    },
+                                    "type": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "media": {
+                                  "type": "object",
+                                  "properties": {
+                                    "shortName": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "lang": {
+                                  "type": "string"
+                                },
+                                "region": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        "status": {
+                          "type": "object",
+                          "properties": {
+                            "clock": {
+                              "type": "integer"
+                            },
+                            "displayClock": {
+                              "type": "string"
+                            },
+                            "period": {
+                              "type": "integer"
+                            },
+                            "type": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "string"
+                                },
+                                "name": {
+                                  "type": "string"
+                                },
+                                "state": {
+                                  "type": "string"
+                                },
+                                "completed": {
+                                  "type": "boolean"
+                                },
+                                "description": {
+                                  "type": "string"
+                                },
+                                "detail": {
+                                  "type": "string"
+                                },
+                                "shortDetail": {
+                                  "type": "string"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                "links": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "language": {
+                          "type": "string"
+                        },
+                        "rel": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            },
+                            {
+                              "type": "string"
+                            }
+                          ]
+                        },
+                        "href": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        },
+                        "shortText": {
+                          "type": "string"
+                        },
+                        "isExternal": {
+                          "type": "boolean"
+                        },
+                        "isPremium": {
+                          "type": "boolean"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "standingSummary": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
